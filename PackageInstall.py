@@ -7,6 +7,7 @@ libs = {"numpy","matplotlib","pillow","sklearn","requests",\
 try:
     for lib in libs:
         os.system("pip install "+lib)
-    print("Successful")        
+    print "Successful"      
 except:
-    print("Failed Somehow")
+    print "Failed Somehow"
+
